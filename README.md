@@ -21,13 +21,9 @@ npm install --save-dev @dragunovartem99/oxfmt-config
 
 ## Usage
 
-1. Add the configuration to your project's `.oxfmtrc.json`:
+The `.oxfmtrc.json` configuration file is automatically symlinked into your project root via a `postinstall` script — no manual setup needed.
 
-```json
-"@dragunovartem99/oxfmt-config"
-```
-
-2. Run the formatter:
+Run the formatter:
 
 ```shell
 npx oxfmt

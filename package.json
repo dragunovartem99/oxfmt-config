@@ -1,6 +1,6 @@
 {
 	"name": "@dragunovartem99/oxfmt-config",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Personal oxfmt Config",
 	"keywords": [
 		"oxfmt",
@@ -22,6 +22,9 @@
 		"email": "dragunovartem99@gmail.com"
 	},
 	"main": ".oxfmtrc.json",
+	"scripts": {
+		"postinstall": "ln -sf node_modules/@dragunovartem99/oxfmt-config/.oxfmtrc.json $INIT_CWD/.oxfmtrc.json"
+	},
 	"peerDependencies": {
 		"oxfmt": ">=0.35.0"
 	}
