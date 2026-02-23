@@ -1,25 +1,25 @@
 {
 	"name": "@dragunovartem99/oxfmt-config",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Personal oxfmt Config",
 	"keywords": [
-		"oxfmt",
 		"code-style",
+		"configuration",
 		"formatting",
-		"configuration"
+		"oxfmt"
 	],
 	"homepage": "https://github.com/dragunovartem99/oxfmt-config#readme",
 	"bugs": {
 		"url": "https://github.com/dragunovartem99/oxfmt-config/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/dragunovartem99/oxfmt-config.git"
-	},
 	"license": "MIT",
 	"author": {
 		"name": "Artem Dragunov",
 		"email": "dragunovartem99@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dragunovartem99/oxfmt-config.git"
 	},
 	"main": ".oxfmtrc.json",
 	"scripts": {

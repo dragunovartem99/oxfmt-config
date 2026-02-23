@@ -1,4 +1,5 @@
 {
+	"$schema": "./node_modules/oxfmt/configuration_schema.json",
 	"printWidth": 100,
 	"tabWidth": 4,
 	"useTabs": true,
@@ -19,6 +20,8 @@
 	"endOfLine": "lf",
 	"embeddedLanguageFormatting": "auto",
 	"singleAttributePerLine": true,
-	"sortPackageJson": false,
+	"sortPackageJson": {
+		"sortScripts": true
+	},
 	"ignorePatterns": []
 }
