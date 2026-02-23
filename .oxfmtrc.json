@@ -23,5 +23,11 @@
 	"sortPackageJson": {
 		"sortScripts": true
 	},
-	"ignorePatterns": []
+	"ignorePatterns": [],
+	"overrides": [
+		{
+			"files": ["*.md"],
+			"options": { "useTabs": false }
+		}
+	]
 }
