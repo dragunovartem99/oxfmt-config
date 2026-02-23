@@ -22,20 +22,32 @@ npm install --save-dev @dragunovartem99/oxfmt-config
 
 The `.oxfmtrc.json` configuration file is automatically symlinked into your project root via a `postinstall` script — no manual setup needed.
 
-Run the formatter:
+1. Add scripts to your project's `package.json`:
+
+```json
+{
+    "scripts": {
+        "format": "oxfmt --write",
+        "format:check": "oxfmt --check"
+    }
+}
+```
+
+2. Run the formatter:
 
 ```shell
-npx oxfmt
+npm run format
 ```
 
 Or check formatting without modifications:
 
 ```shell
-npx oxfmt --check
+npm run format:check
 ```
 
 ## Creating your own configuration
 
 For creating similar configurations, see:
 
+- [oxfmt's configuration docs](https://oxc.rs/docs/guide/usage/formatter/config.html)
 - [npm's documentation on scoped packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
