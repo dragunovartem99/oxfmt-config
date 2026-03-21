@@ -1,4 +1,4 @@
-# Personal oxfmt Config
+# Personal Oxfmt Config
 
 <a href="https://github.com/dragunovartem99/oxfmt-config/blob/main/.oxfmtrc.json" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/View_Configuration-red"></a>
 <img alt="NPM Version" src="https://img.shields.io/npm/v/@dragunovartem99/oxfmt-config?color=orange">
