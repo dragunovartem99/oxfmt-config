@@ -3,9 +3,11 @@ import { defineConfig } from "vite";
 export default defineConfig({
 	build: {
 		lib: {
-			entry: "src/index.ts",
+			entry: {
+				index: "src/index.ts",
+				prettier: "src/prettier.ts",
+			},
 			formats: ["es"],
-			fileName: "index",
 		},
 		rollupOptions: {
 			external: ["oxfmt"],
