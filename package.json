@@ -27,7 +27,8 @@
 	"type": "module",
 	"main": "dist/index.js",
 	"exports": {
-		".": "./dist/index.js"
+		".": "./dist/index.js",
+		"./prettier": "./dist/prettier.js"
 	},
 	"scripts": {
 		"build": "vite build",
